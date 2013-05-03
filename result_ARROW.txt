@@ -1,0 +1,82 @@
+prefs-2-3.lp
+clasp version 2.1.1
+Reading from stdin
+Solving...
+UNSATISFIABLE
+
+Models      : 0     
+Time        : 0.027s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+Choices     : 1
+Conflicts   : 2
+Restarts    : 0     
+
+Atoms       : 9548  
+Rules       : 12193  (1: 11977 3: 216)
+Bodies      : 2379  
+Equivalences: 18875  (Atom=Atom: 9328 Body=Body: 0 Other: 9547)
+Tight       : Yes
+
+Variables   : 2378   (Eliminated:    0 Frozen:    0)
+Constraints : 1046   (Binary: 96.4% Ternary:  3.4% Other:  0.2%)
+Lemmas      : 1      (Binary:  0.0% Ternary:  0.0% Other:100.0%)
+  Conflict  : 1      (Average Length: 1.0) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0     
+
+
+prefs-2-4.lp
+clasp version 2.1.1
+Reading from stdin
+Solving...
+UNSATISFIABLE
+
+Models      : 0     
+Time        : 21.681s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.01s)
+CPU Time    : 6.140s
+Choices     : 1
+Conflicts   : 2
+Restarts    : 0     
+
+Atoms       : 4970313
+Rules       : 5995016 (1: 5988104 3: 6912)
+Bodies      : 1016067
+Equivalences: 9933709 (Atom=Atom: 4963397 Body=Body: 0 Other: 4970312)
+Tight       : Yes
+
+Variables   : 1016066 (Eliminated:    0 Frozen:    0)
+Constraints : 502274 (Binary: 99.5% Ternary:  0.5% Other:  0.0%)
+Lemmas      : 1      (Binary:  0.0% Ternary:  0.0% Other:100.0%)
+  Conflict  : 1      (Average Length: 1.0) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0     
+
+
+prefs-3-3.lp
+clasp version 2.1.1
+Reading from stdin
+Solving...
+UNSATISFIABLE
+
+Models      : 0     
+Time        : 1.550s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.390s
+Choices     : 2
+Conflicts   : 3
+Restarts    : 0     
+
+Atoms       : 453178
+Rules       : 492867 (1: 491571 3: 1296)
+Bodies      : 37588 
+Equivalences: 905054 (Atom=Atom: 451877 Body=Body: 0 Other: 453177)
+Tight       : Yes
+
+Variables   : 37587  (Eliminated:    0 Frozen:    0)
+Constraints : 27075  (Binary: 97.7% Ternary:  2.3% Other:  0.0%)
+Lemmas      : 2      (Binary:  0.0% Ternary:  0.0% Other:100.0%)
+  Conflict  : 2      (Average Length: 1.0) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0   

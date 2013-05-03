@@ -1,0 +1,87 @@
+for x in {prefs-2-3.lp,prefs-2-4.lp,prefs-3-3.lp}; do echo ;echo ; echo $x; gringo $x arrow.lp | clasp 0 -q --stat
+ ; done  
+
+
+prefs-2-3.lp
+clasp version 2.1.1
+Reading from stdin
+Solving...
+SATISFIABLE
+
+Models      : 2     
+Time        : 0.027s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.000s
+Choices     : 1
+Conflicts   : 0
+Restarts    : 0     
+
+Atoms       : 9546  
+Rules       : 11975  (1: 11759 3: 216)
+Bodies      : 2215  
+Equivalences: 18711  (Atom=Atom: 9328 Body=Body: 0 Other: 9383)
+Tight       : Yes
+
+Variables   : 2376   (Eliminated:    0 Frozen:    0)
+Constraints : 1044   (Binary: 96.6% Ternary:  3.4% Other:  0.0%)
+Lemmas      : 0      (Binary:  0.0% Ternary:  0.0% Other:  0.0%)
+  Conflict  : 0      (Average Length: 0.0) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0     
+
+
+prefs-2-4.lp
+clasp version 2.1.1
+Reading from stdin
+Solving...
+SATISFIABLE
+
+Models      : 2     
+Time        : 21.601s (Solving: 0.02s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time    : 6.130s
+Choices     : 1
+Conflicts   : 0
+Restarts    : 0     
+
+Atoms       : 4970311
+Rules       : 5988102 (1: 5981190 3: 6912)
+Bodies      : 1010881
+Equivalences: 9928523 (Atom=Atom: 4963397 Body=Body: 0 Other: 4965126)
+Tight       : Yes
+
+Variables   : 1016064 (Eliminated:    0 Frozen:    0)
+Constraints : 502272 (Binary: 99.5% Ternary:  0.5% Other:  0.0%)
+Lemmas      : 0      (Binary:  0.0% Ternary:  0.0% Other:  0.0%)
+  Conflict  : 0      (Average Length: 0.0) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0     
+
+
+prefs-3-3.lp
+clasp version 2.1.1
+Reading from stdin
+Solving...
+SATISFIABLE
+
+Models      : 3     
+Time        : 1.523s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.380s
+Choices     : 2
+Conflicts   : 0
+Restarts    : 0     
+
+Atoms       : 453175
+Rules       : 490920 (1: 489624 3: 1296)
+Bodies      : 36451 
+Equivalences: 903917 (Atom=Atom: 451877 Body=Body: 0 Other: 452040)
+Tight       : Yes
+
+Variables   : 37584  (Eliminated:    0 Frozen:    0)
+Constraints : 27072  (Binary: 97.7% Ternary:  2.3% Other:  0.0%)
+Lemmas      : 0      (Binary:  0.0% Ternary:  0.0% Other:  0.0%)
+  Conflict  : 0      (Average Length: 0.0) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0     
+
