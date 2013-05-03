@@ -20,10 +20,10 @@ s(S) :- rank(S,_,_,_).
 % unaminity
 :-  s(S), alt(A;B), rank(S,V,A,B) : voter(V), not wel(S,A,B). 
 
-%% no dictator
-diff(V) :- s(S), wel(S,A,B), rank(S,V,B,A). 
-
-:- voter(V), not diff(V). 
+%%% no dictator
+%diff(V) :- s(S), wel(S,A,B), rank(S,V,B,A). 
+%
+%:- voter(V), not diff(V). 
 
 % independent of irrelevant alternatives
 indiff(S1,S2,V,A,B) :- 

@@ -22,18 +22,18 @@ dictator, see result_DICTATOR.txt.
 
 The case (3,4) is not groundable any more and the double exponential encoding does not suffice for such cases. 
 
-Interestingely, in the paper [1] they report for case (2,3) 35973 variables and 106354 clauses. Whereas we need 9548
+Interestingly, in the paper [1] they report for case (2,3) the number of variables to be 35973 and clauses 106354, whereas we need 9548
 variables and 12193 clauses. 
 
 Explanation of files and usage
 ----------------
 
-* arrow.lp: encoding of arrows impossiblity theorem
+* arrow.lp: encoding of arrows impossibility theorem
 * prefs.sh: encoding to generate all preference relations for a set of voters and alternatives
 * make_prefs.sh: generates to stdout the ranking specified in prefs.lp
 * prefs-<vot>-<alt>.lp: grounded preferences for sets of voters and alternatives
 
-    To generate the result, install clasp and gringo from [potassco](http://potassco.sourceforge.net/) and run
+    To generate the result, install clasp and gringo from [potassco](http://potassco.sourceforge.net/) and e.g. run
 
 ```
 gringo prefs-2-3.lp arrow.lp | clasp 0 -q --stat

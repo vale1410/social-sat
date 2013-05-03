@@ -1,10 +1,10 @@
 #hide. 
 #show rank/4. 
 
-%alt(a1;a2;a3). 
-alt(a1;a2;a3;a4). 
+alt(a1;a2;a3). 
+%alt(a1;a2;a3;a4). 
 %voter(v1;v2). 
-voter(v1;v2;v3). 
+voter(v1;v2;v3;v4). 
 
 { rank(num,V,A1,A2) : A1 != A2 : alt(A1;A2) } :- voter(V). 
 

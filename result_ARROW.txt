@@ -1,11 +1,16 @@
+for x in {prefs-2-3.lp,prefs-2-4.lp,prefs-3-3.lp,prefs-4-3.lp}; do echo ; echo $x; echo ------------; gringo $x arrow.lp
+| clasp 0 -q --stat 
+ ; done
+
 prefs-2-3.lp
+------------
 clasp version 2.1.1
 Reading from stdin
 Solving...
 UNSATISFIABLE
 
 Models      : 0     
-Time        : 0.027s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+Time        : 0.023s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time    : 0.000s
 Choices     : 1
 Conflicts   : 2
@@ -25,16 +30,16 @@ Lemmas      : 1      (Binary:  0.0% Ternary:  0.0% Other:100.0%)
   Other     : 0      (Average Length: 0.0)
   Deleted   : 0     
 
-
 prefs-2-4.lp
+------------
 clasp version 2.1.1
 Reading from stdin
 Solving...
 UNSATISFIABLE
 
 Models      : 0     
-Time        : 21.681s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.01s)
-CPU Time    : 6.140s
+Time        : 19.152s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.01s)
+CPU Time    : 4.500s
 Choices     : 1
 Conflicts   : 2
 Restarts    : 0     
@@ -53,16 +58,16 @@ Lemmas      : 1      (Binary:  0.0% Ternary:  0.0% Other:100.0%)
   Other     : 0      (Average Length: 0.0)
   Deleted   : 0     
 
-
 prefs-3-3.lp
+------------
 clasp version 2.1.1
 Reading from stdin
 Solving...
 UNSATISFIABLE
 
 Models      : 0     
-Time        : 1.550s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time    : 0.390s
+Time        : 1.318s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.250s
 Choices     : 2
 Conflicts   : 3
 Restarts    : 0     
@@ -79,4 +84,33 @@ Lemmas      : 2      (Binary:  0.0% Ternary:  0.0% Other:100.0%)
   Conflict  : 2      (Average Length: 1.0) 
   Loop      : 0      (Average Length: 0.0) 
   Other     : 0      (Average Length: 0.0)
-  Deleted   : 0   
+  Deleted   : 0     
+
+prefs-4-3.lp
+------------
+clasp version 2.1.1
+Reading from stdin
+Solving...
+UNSATISFIABLE
+
+Models      : 0     
+Time        : 84.559s (Solving: 0.02s 1st Model: 0.00s Unsat: 0.02s)
+CPU Time    : 11.450s
+Choices     : 3
+Conflicts   : 4
+Restarts    : 0     
+
+Atoms       : 20771004
+Rules       : 21432449 (1: 21424673 3: 7776)
+Bodies      : 645413
+Equivalences: 41534225 (Atom=Atom: 20763222 Body=Body: 0 Other: 20771003)
+Tight       : Yes
+
+Variables   : 645412 (Eliminated:    0 Frozen:    0)
+Constraints : 557464 (Binary: 99.0% Ternary:  1.0% Other:  0.0%)
+Lemmas      : 3      (Binary:  0.0% Ternary:  0.0% Other:100.0%)
+  Conflict  : 3      (Average Length: 42.3) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0     
+
