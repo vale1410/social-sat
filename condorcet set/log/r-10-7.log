@@ -1,0 +1,35 @@
+clasp version 2.1.1
+Reading from stdin
+Solving...
+UNSATISFIABLE
+
+Models      : 0     
+Time        : 0.030s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 0.020s
+Choices     : 53
+Conflicts   : 26
+Restarts    : 0     
+
+Atoms       : 3933  
+Rules       : 12489  (1: 12122 2: 360 3: 7)
+Bodies      : 7021  
+Equivalences: 2824   (Atom=Atom: 421 Body=Body: 0 Other: 2403)
+Tight       : Yes
+
+Variables   : 9180   (Eliminated:    0 Frozen: 2880)
+Constraints : 13590  (Binary: 41.7% Ternary: 55.6% Other:  2.6%)
+Lemmas      : 25     (Binary: 24.0% Ternary: 24.0% Other: 52.0%)
+  Conflict  : 25     (Average Length: 2.9) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 0      (Average Length: 0.0)
+  Deleted   : 0     
+
+============ PARALLEL STATISTICS ============
+
+Threads     : 3
+Winner      : 0
+Distributed : 22     (Ratio: 0.88 Average LBD: 2.36) 
+Integrated  : 2      (Ratio: 0.09 Unit: 0 Average Jumps: 0.00)
+Splits      : 0
+Problems    : 2      (Average Length: 0.00) 
+

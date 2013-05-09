@@ -1,0 +1,36 @@
+clasp version 2.1.1
+Reading from stdin
+Solving...
+UNKNOWN
+
+INTERRUPTED : 1
+Models      : 0+    
+Time        : 199.999s (Solving: 199.89s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time    : 597.750s
+Choices     : 11164748
+Conflicts   : 10486302
+Restarts    : 1844   (Average: 5686.71 Last: 1448718)
+
+Atoms       : 12051 
+Rules       : 41685  (1: 41300 2: 360 3: 25)
+Bodies      : 23221 
+Equivalences: 6100   (Atom=Atom: 439 Body=Body: 0 Other: 5661)
+Tight       : Yes
+
+Variables   : 31860  (Eliminated:    0 Frozen: 9360)
+Constraints : 47610  (Binary: 42.5% Ternary: 56.7% Other:  0.8%)
+Lemmas      : 10486860 (Binary:  0.0% Ternary:  0.0% Other:100.0%)
+  Conflict  : 10486302 (Average Length: 21.1) 
+  Loop      : 0      (Average Length: 0.0) 
+  Other     : 558    (Average Length: 6.5)
+  Deleted   : 9566845
+
+============ PARALLEL STATISTICS ============
+
+Threads     : 3
+Winner      : -1
+Distributed : 1480   (Ratio: 0.00 Average LBD: 3.87) 
+Integrated  : 2960   (Ratio: 2.00 Unit: 79 Average Jumps: 0.63)
+Splits      : 0
+Problems    : 3      (Average Length: 0.00) 
+

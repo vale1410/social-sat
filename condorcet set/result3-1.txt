@@ -1,0 +1,52 @@
+digraph {
+
+
+v1_a1 -> v1_a2
+v1_a2 -> v1_a3
+v1_a3 -> v1_a4
+v1_a4 -> v1_a5
+v2_a1 -> v2_a2
+v2_a4 -> v2_a3
+v2_a2 -> v2_a4
+v2_a3 -> v2_a5
+v3_a1 -> v3_a2
+v3_a2 -> v3_a3
+v3_a5 -> v3_a4
+v3_a3 -> v3_a5
+v4_a2 -> v4_a1
+v4_a3 -> v4_a2
+v4_a4 -> v4_a3
+v4_a5 -> v4_a4
+v5_a2 -> v5_a1
+v5_a3 -> v5_a2
+v5_a4 -> v5_a3
+v5_a5 -> v5_a4
+v6_a2 -> v6_a1
+v6_a3 -> v6_a2
+v6_a4 -> v6_a3
+v6_a5 -> v6_a4
+v7_a2 -> v7_a1
+v7_a3 -> v7_a2
+v7_a4 -> v7_a3
+v7_a5 -> v7_a4
+
+w_a3 -> w_a5
+w_a2 -> w_a5
+w_a1 -> w_a5
+w_a5 -> w_a4
+w_a2 -> w_a4
+w_a1 -> w_a4
+w_a5 -> w_a3
+w_a4 -> w_a3
+w_a2 -> w_a3
+w_a1 -> w_a3
+w_a5 -> w_a2
+w_a4 -> w_a2
+w_a3 -> w_a2
+w_a1 -> w_a2
+w_a5 -> w_a1
+w_a4 -> w_a1
+w_a3 -> w_a1
+w_a2 -> w_a1
+
+}
