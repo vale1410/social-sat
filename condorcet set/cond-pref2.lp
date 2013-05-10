@@ -1,11 +1,11 @@
 #hide. 
 #const n=11. 
 #const m=11. 
-#show rank/3. 
+#show ord/3. 
 #show loose/4. 
 
-%between(V,A,C) :- rank(V,A,B), rank(V,B,C). 
-%ord(V,A,B) :- rank(V,A,B), not between(V,A,B). 
+between(V,A,C) :- rank(V,A,B), rank(V,B,C). 
+ord(V,A,B) :- rank(V,A,B), not between(V,A,B). 
 
 voter(1..m). 
 node(1..n). 
