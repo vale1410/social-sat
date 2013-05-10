@@ -10,7 +10,11 @@
 voter(1..m). 
 node(1..n). 
 
-{ rank(V,A1,A2) : A1 != A2 : node(A1;A2) } :- voter(V). 
+first(1). 
+next_node(N,N+1) :- node(N). 
+next_voter(N,N+1) :- voter(N). 
+
+{ rank(V,A1,A2) } :- A1 != A2, node(A1;A2), voter(V). 
 
 % complete
 :- node(A1;A2), A1 != A2, voter(V), not rank(V,A1,A2), not rank(V,A2,A1).
