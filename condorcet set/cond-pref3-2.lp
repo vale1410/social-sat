@@ -1,5 +1,3 @@
- 
-
 #hide. 
 #const n=11. 
 #const m=11. 
