@@ -1,4 +1,4 @@
-#const n=4 .
+#const n=8.
 #hide. 
 #show contains/2. 
 
