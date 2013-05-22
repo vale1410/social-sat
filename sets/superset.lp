@@ -1,5 +1,5 @@
 
 
-set(S) :- element(S,_). 
+set(S) :- contains(S,_). 
 
-superset(S1,S2) :- set(S1;S2), element(S1,A) : element(S2,A). 
+superset(S1,S2) :- set(S1;S2), contains(S1,A) : contains(S2,A). 

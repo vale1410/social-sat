@@ -1,7 +1,7 @@
 #const n=4 .
 #hide. 
-#show element/2. 
+#show contains/2. 
 
-domain(1..n). 
+alternative(1..n). 
 
-{ element(num, N) } :- domain(N). 
+{ contains(num, N) } :- alternative(N). 
