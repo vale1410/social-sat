@@ -1,0 +1,15 @@
+element(s1,1).
+element(s2,2).
+element(s3,2).element(s3,1).
+element(s4,3).
+element(s5,3).element(s5,1).
+element(s6,3).element(s6,2).
+element(s7,3).element(s7,2).element(s7,1).
+element(s8,4).
+element(s9,4).element(s9,1).
+element(s10,4).element(s10,2).
+element(s11,4).element(s11,2).element(s11,1).
+element(s12,4).element(s12,3).
+element(s13,4).element(s13,3).element(s13,1).
+element(s14,4).element(s14,3).element(s14,2).
+element(s15,4).element(s15,3).element(s15,2).element(s15,1).
